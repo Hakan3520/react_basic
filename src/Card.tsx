@@ -1,19 +1,16 @@
 type Props = {
-    title: string
-    image: string
-    description: string
+    name: string
+    mannschaft: string
+    position: string
 }
 
-export default function Card({ title, image, description }: Props) {
+export default function Card({ name, mannschaft, position }: Props) {
     return (
         <div className="card">
-            <img src={image} alt={title} />
+            <h2>{name}</h2>
 
-            <h2>{title}</h2>
-
-            <p>{description}</p>
-
-            <button>Mehr erfahren</button>
+            <p>Mannschaft: {mannschaft}</p>
+            <p>Position: {position}</p>
         </div>
     )
 }
