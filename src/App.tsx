@@ -1,5 +1,7 @@
 import './App.css'
 import Card from './Card'
+import Card2 from './Card2'
+import Card3 from './Card3'
 
 function App() {
   return (
@@ -23,6 +25,18 @@ function App() {
           title="Reisen"
           image="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600"
           description="Neue Orte entdecken und Abenteuer erleben."
+        />
+
+        <Card2
+          title="Musik"
+          image="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600"
+          description="Musik hören und neue Künstler entdecken."
+        />
+
+        <Card3
+          title="Technik"
+          image="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600"
+          description="Neue Technologien und Programmieren."
         />
       </div>
     </>
