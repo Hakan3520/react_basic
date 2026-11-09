@@ -30,18 +30,21 @@ function App() {
           name="Bedirhan Kocyigit"
           mannschaft="Carborspor Lindau"
           position="Torwart"
+          bezeichnung="Organe"
         />
 
         <Card
           name="Kaan Yagdi"
           mannschaft="SC Austria Lustenau U18"
           position="Rechte Ersatzbank"
+          bezeichnung="Flaschen gefüllt"
         />
 
         <Card
           name="Can Temiz"
           mannschaft="SC Austria Lustenau KM"
           position="Baba Forvet"
+          bezeichnung="Erfolgreiche Schwalben"
         />
 
       </div>
